@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    color: #fff;
+    background-color: #87CEEB;
+}
+
+.container {
+    max-width: 800px;
+    margin-right: 100;
+    padding: 20px;
+    /* background: rgba(39, 3, 3, 0.7); */
+    /*background-image: url('/static/images/wine_png1.png');*/
+    
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+}
+
+label {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+}
+
+button {
+    background-color: #002c8b;
+    color: #fff;
+    border: none;
+    padding: 3px;
+
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 40px ;
+}
+
+button:hover {
+    background-color: #3b0505;
+}
+
+
+
+header {
+    background-color: #800000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+
+}
+.first_field{
+    display: inline-block;
+}
+.second_field2{
+    display: inline-block;
+}
+.select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.opt_lab{
+    font-size: 15;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.image{
+    display: inline-block;
+}
+
+.form{
+    margin-right: 100px;
+}

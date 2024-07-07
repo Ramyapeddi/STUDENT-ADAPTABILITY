@@ -1,0 +1,81 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Online Ed Predictor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("https://c0.wallpaperflare.com/preview/534/41/125/school-books-young-adult-education.jpg");
+             background-size: cover;
+            margin: 0;
+            padding: 0;
+            
+        }
+        .container {
+            
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .header {
+            
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px 8px 0 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .content {
+            text-align: center;
+            padding: 30px;
+            
+            color: #ffffff;
+            border-radius: 0 0 8px 8px;
+        }
+        .content h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .content p {
+            font-size: 1.2em;
+        }
+        .button {
+            display: block;
+            width: 100px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #005f5f;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #005f5f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Prediction Result</h1>
+            <h2 style="background-color:white; color:black; width:260px; margin-left:250px"> {{ result }}</h2>
+        
+        </div>
+        <div class="content">
+           
+            <a href="{{ url_for('predict') }}" class="button">StartOver</a>
+                       
+        </div>
+    </div>
+</body>
+</html>
