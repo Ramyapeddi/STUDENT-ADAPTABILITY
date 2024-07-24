@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Online Ed Predictor</title>
+    <style>
+        body {
+            
+             background-image: url("https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-size: cover;
+         
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+      
+        .container {
+            /*background-image: url("https://images.pexels.com/photos/4126724/pexels-photo-4126724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");*/
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .header {
+            /*background-image: url("https://images.pexels.com/photos/4126724/pexels-photo-4126724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");*/
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px 8px 0 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .content {
+            text-align: center;
+            padding: 30px;
+           /* background-color: #00a0b0;*/
+            color: white;
+            border-radius: 0 0 8px 8px;
+        }
+        .content h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .content p {
+            font-size: 1.2em;
+        }
+        .button {
+            display: block;
+            width: 100px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #008080;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #005f5f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Student Online Ed Predictor</h1>
+        </div>
+        <div class="content">
+            <h2>New Approach to Analysis Remote Education</h2>
+            <p>Best way to know students Adaptability Level in Online Education</p>
+            <a href="{{ url_for('predict') }}" class="button">Predict</a>
+                       
+        </div>
+    </div>
+</body>
+</html>
